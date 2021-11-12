@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+}
+
+#question1,
+#question2,
+#question3,
+#question4,
+#question5,
+#results {
+  display:none;
+  background-image: url("background1.jpg");
+  width: 800px;
+  height:600px;
+  color:darkblue;
+  justify-items:baseline;
+  align-content: space-around;
+  text-align: left;
+}
+
+#quizarea {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 600px;
+  width: 800px;
+  background-color:lightskyblue;
+  border-radius: 3px;
+}
+#intro {
+    align-content: center;
+    background-image: url("background1.jpg");
+    color:darkblue;
+    height:600px;
+    display:block;
+    
+}
+h1{
+   justify-content: justify;
+   text-align: center;
+   color:green;
+}
+.left-alignment{
+
+  margin-left: 100px;
+
+}
